@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"]{
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* botones */
+button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+/* boton delete */
+button.delete{
+    background-color: #dc3545;
+    border: 1px solid red;
+}
+button.delete:hover{
+    background-color: red;
+}
+/* boton pendientes */
+button.pendings{
+    background-color: yellow;
+    border: 1px solid rgba(206, 206, 0, 0.829);
+    color: black;
+    margin-left: auto;
+}
+button.pendings:hover{
+    background-color: rgba(206, 206, 0, 0.829);
+}
+.pending{
+    background-color: yellow;
+}
+/* boton completadas */
+button.completeded{
+    background-color: #28a745;
+    /* margin-left: auto; */
+    border: 1px solid green;
+}
+button.completeded:hover{
+    background-color: green;
+}
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
